@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TTKH"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@drawable/header_register"
+        android:elevation="10dp"
+        android:theme="@style/ToolbarTheme" />
+
+    <ImageView
+        android:layout_width="264dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/iconmaybay" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="Thông Tin Khách Hàng"
+            android:textColor="#009688"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/tv_nguoilon"
+            android:text="Người Lớn :"
+            android:textColor="#000"
+            android:textSize="22sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Nguyễn Văn A"
+            android:id="@+id/et_htlon"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="18sp"/>
+
+        <EditText
+
+            android:id="@+id/et_nslon"
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="01-01-2020" />
+        <ImageButton
+            android:id="@+id/ngaylon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:src="@drawable/ic_event"
+            android:tint="@color/grey_40" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/tv_treem"
+            android:text="Trẻ Em :"
+            android:textColor="#000"
+            android:textSize="22sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Nguyễn Văn A"
+            android:id="@+id/et_httreem"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/tv_nslon"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/et_nstreem"
+            android:layout_width="363dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="01-01-2020" />
+        <ImageButton
+            android:id="@+id/ngaytreem"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:src="@drawable/ic_event"
+            android:tint="@color/grey_40" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/tv_embe"
+            android:text="Em Bé :"
+            android:textColor="#000"
+            android:textSize="22sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Nguyễn Văn A"
+            android:id="@+id/et_htembe"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/tv_nsembe"
+            android:text=""
+            android:textColor="#000"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/et_nsembe"
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="01-01-2020" />
+        <ImageButton
+            android:id="@+id/ngayembe"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:clickable="true"
+            android:src="@drawable/ic_event"
+            android:tint="@color/grey_40" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TIẾP TỤC"
+            android:id="@+id/btn_tieptuc1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CANCEL"
+            android:id="@+id/btn_cancel1"/>
+    </LinearLayout>
+</LinearLayout>

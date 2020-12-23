@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="VectorDrawableCompat"
+    tools:context=".Firstpage">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/bgHeader"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:contentDescription="header"
+        android:background="@drawable/header"/>
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="45dp"
+        android:text="Welcome to apps"
+        android:textColor="@color/colorWhite"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDesc"
+        android:layout_alignLeft="@+id/tvDesc"
+        android:text="VietNam-BooKing"
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="280dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:src="@drawable/iconmaybay" />
+
+    <ImageView
+        android:id="@+id/circle1"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:transitionName="image"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-100dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/circlet" />
+
+    <ImageView
+        android:id="@+id/circle2"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="-90dp"
+        android:layout_marginBottom="-40dp"
+        android:src="@drawable/circle" />
+
+    <ImageView
+        android:id="@+id/circle3"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="-50dp"
+        android:layout_marginBottom="-60dp"
+        android:layout_toLeftOf="@id/circle2"
+        android:src="@drawable/circlet" />
+
+    <ImageView
+        android:id="@+id/circle4"
+        android:layout_width="134dp"
+        android:layout_height="134dp"
+        android:layout_below="@+id/bgHeader"
+        android:layout_marginTop="-130dp"
+        android:layout_marginRight="-100dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/circlet" />
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--        <TextView-->
+            <!--            android:id="@+id/tv_app"-->
+            <!--            android:layout_width="328dp"-->
+            <!--            android:layout_height="280dp"-->
+            <!--            android:layout_alignParentTop="true"-->
+            <!--            android:layout_alignParentEnd="true"-->
+            <!--            android:layout_alignParentBottom="true"-->
+            <!--            android:layout_marginTop="220dp"-->
+            <!--            android:layout_marginEnd="130dp"-->
+            <!--            android:layout_marginBottom="463dp"-->
+            <!--            android:gravity="center"-->
+            <!--            android:text="Now"-->
+            <!--            android:textColor="#f0f0f0"-->
+            <!--            android:textSize="70dp"-->
+            <!--            android:textStyle="bold"/>-->
+
+            <EditText
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="400dp"
+                android:layout_marginEnd="43dp"
+                android:layout_marginRight="43dp"
+                android:id="@+id/EditText2"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_text"
+                android:paddingLeft="20dp"
+                android:hint="Vui lòng nhập số điện thoại"
+                android:textColorHint="#D3D3D3" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:text="Tiếp tục"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="450dp"
+                android:background="@drawable/border_button"
+                android:textColor="#FFFFFF"
+                />
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="160dp"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="600dp"
+                android:text="Khi chọn Tiếp tục, bạn đồng ý với Điều khoản sử dụng và Chính sách bảo mật của Foody" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

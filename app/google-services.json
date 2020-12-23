@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "2793596550",
+    "project_id": "otp-vemaybay",
+    "storage_bucket": "otp-vemaybay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2793596550:android:347e42e9cc5528917b1307",
+        "android_client_info": {
+          "package_name": "com.example.nhom8_ltdd_ck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2793596550-5d0msmf3sbrufsu2ef57gma4q907nghi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nhom8_ltdd_ck",
+            "certificate_hash": "d4a5700be03e22ed9474eff281cbfc8149a2d70c"
+          }
+        },
+        {
+          "client_id": "2793596550-r83p9jsm92s4d0uhe571301u8duuugkm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFGzeqXGqonWbP7bRiwMNF1WN73qOMdb8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2793596550-r83p9jsm92s4d0uhe571301u8duuugkm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
